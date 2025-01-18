@@ -7,33 +7,33 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Designed and developed a UT Dallas based compiler in Java using JFlex and Cup, incorporating a lexer, parser, type checker, and interpreter. Developed unique grammar rules for program structure, member declarations, statements, and type rules. Designed type coercion and operator rules to ensure accurate type handling and code execution',		
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Designed and developed a UT Dallas based compiler in Java using JFlex and Cup, incorporating a lexer, parser, type checker, and interpreter',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		logo: Assets.Java,
+		name: 'CS4386-Compiler-Design-Project',
 		period: {
-			from: new Date()
+			from: new Date(2023, 8, 19) 
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('Java', 'JFlex', 'Cup'),
+		type: 'Java, JFlex, Cup'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Developed a vehicle safety system using YoloV5 for real-time object detection, alerting drivers to red lights, stop signs, and nearby vehicles. Utilized computer vision techniques such as adaptive Gaussian thresholding, Canny edge detection, and perspective transformations to highlight lane lines and proactively detect potential collision risks',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Developed a vehicle safety system using YoloV5 for real-time object detection, alerting drivers to red lights, stop signs, and nearby vehicles.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		logo: Assets.Python,
+		name: 'PathWatch',
 		period: {
-			from: new Date()
+			from: new Date(2023, 7, 1)
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		skills: getSkills('Python', 'OpenCV', 'Swift', 'YoloV5'),
+		type: 'Python, OpenCV, Swift, YoloV5',
 		screenshots: [
 			{
 				label: 'screen 1',

@@ -3,28 +3,26 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
-	},
-	{
-		degree: 'PhD of Computer Science',
+		degree: 'Bachelors degree of Computer Science',
 		description: '',
 		location: 'USA',
-		logo: Assets.Unknown,
+		logo: Assets.UTD,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		organization: 'UT Dallas',
+		period: { from: new Date(2022, 8, 19), to: new Date(2025, 5, 12) },		shortDescription: '',
+		slug: 'education-item-1',
+		subjects: ['Operating Systems', 'Database Systems', 'Compiler Design', 'Algorithms and Data Structures']
+	},
+	{
+		degree: 'Masters degree of Computer Science',
+		description: '',
+		location: 'USA',
+		logo: Assets.UTD,
+		name: '',
+		organization: 'UT Dallas',
+		period: { from: new Date(2025, 8, 19)},		shortDescription: '',
+		slug: 'education-item-2',
+		subjects: ['Natural Language Processing', 'Artificial Intelligence', 'Machine Learning']
 	}
 ];
 

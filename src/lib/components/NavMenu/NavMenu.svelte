@@ -39,7 +39,7 @@
 		<div class="flex-row flex-1 self-center h-full justify-center hidden md:flex">
 			{#each items as item (item.title)}
 				<a href={`${base}${item.to}`} class="nav-menu-item !text-[var(--secondary-text)]">
-					<UIcon icon={item.icon} classes="text-1.3em" />
+					<!--<UIcon icon={item.icon} classes="text-1.3em" />-->
 					<span class="nav-menu-item-label">{item.title}</span>
 				</a>
 			{/each}
